@@ -7,9 +7,9 @@ const Gallery = () => {
   return (
     <section className="galery">
         <article className="galery__container-img">
-            <img className="galery__img-1" src= {IMG_GALLERY1} alt="gallery-1.png"/>
-            <img className="galery__img-2" src= {IMG_GALLERY2} alt="gallery-2.png"/>
-            <img className="galery__img-3" src= {IMG_GALLERY3} alt="gallery-3.png"/>
+            <img className="galery__img" src= {IMG_GALLERY1} alt="gallery-1.png"/>
+            <img className="galery__img" src= {IMG_GALLERY2} alt="gallery-2.png"/>
+            <img className="galery__img" src= {IMG_GALLERY3} alt="gallery-3.png"/>
         </article>
     </section>
   )
