@@ -1,11 +1,13 @@
 import React from "react";
+import "../css/Header.css";
+import LOGO from '../images/logo.png'
 
 const Header = () => {
   return (
     <header className="header">
        
         <div className="header__container-logo">
-            <img className="header__img" src="/images/logo.png" alt="logo-starbucks"/>
+            <img className="header__img" src={LOGO} alt="logo.png"/>
         </div>
         
         <nav className="header__navbar">
