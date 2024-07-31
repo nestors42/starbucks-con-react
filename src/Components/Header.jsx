@@ -1,6 +1,6 @@
 import React from "react";
-import "../css/Header.css";
 import LOGO from '../images/logo.png'
+import ButtonHeader from "../subComponents/ButtonHeader";
 
 const Header = () => {
   return (
@@ -11,10 +11,10 @@ const Header = () => {
         </div>
         
         <nav className="header__navbar">
-            <a className="header__link" href="#">INICIO</a>
-            <a className="header__link" href="#">CAFE</a>
-            <a className="header__link" href="#">SOBRE NOSOTROS</a>
-            <a className="header__link" href="#">DELIBERY</a>
+            <ButtonHeader boton= {'INICIO'} />
+            <ButtonHeader boton= {'CAFE'} />
+            <ButtonHeader boton= {'SOBRE NOSOTROS'} />
+            <ButtonHeader boton= {'DELIVERY'} />
         </nav>
         <div className="header__container-login">
             <i className="bi bi-person-circle"></i>
