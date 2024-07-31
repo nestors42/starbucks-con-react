@@ -1,0 +1,35 @@
+.galery__img-1,
+.galery__img-2,
+.galery__img-3 {
+    padding: 12px 1px;
+    width: 90%;
+    /* gap: 16px; */
+}
+.galery{
+    background-color: #006241;
+    padding: 2em 0;
+    width: 100%;
+    
+}
+.galery__container-img {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    padding: 0 0 1.5em;
+    flex-direction: column;
+    gap: 16px;
+    
+    
+}
+@media (min-width: 768px) {
+.galery__img-1,
+    .galery__img-2,.galery__img-3 {
+        margin-top: 1.5em;
+
+    }
+    
+    .galery__container-img {
+        display: flex;
+        flex-direction: row;
+    }
+}
