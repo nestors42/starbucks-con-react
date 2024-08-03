@@ -7,7 +7,7 @@ import Card from "../subComponents/Card";
 
 const Cards = () => {
   return (
-    <section class="cards">
+    <section className="cards">
       <Card
         image={IMG_CARD1}
         text={"Aplicacion de"}
