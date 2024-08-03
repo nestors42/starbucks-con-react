@@ -115,7 +115,9 @@
   width: 85%;
   color: white;
   padding: 6px;
-  margin-top: 8px;
+  /* margin-top: 8px; */
+  margin-bottom: 15px;
+  margin-left: 13px;
   transition: 1s;
   font-size: 12px;
 }
