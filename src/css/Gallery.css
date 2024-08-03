@@ -20,9 +20,19 @@
     width: 35%;
     /* padding: 10px; */
 }
-/* @media(min-width: 768px){
+@media(max-width: 768px){
     .galery__container-img{
-        display: flex;
         flex-direction: column;
     }
-} */
+    .galery__container-img{
+        display: flex;
+        width: 90%;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+    .galery__img{
+        width: 100%;
+        padding: 0 0;
+    }
+}
