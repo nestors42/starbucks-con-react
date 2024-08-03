@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.section-contact {
+    background-color: #141414;
+    padding: 40px 15px 70px 15px;
+}
+.section-contact__title {
+    color: #006241;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    font-size: 28px;
+}
+.section-contct__form {
+    background-color: #006241;
+    padding: 14px;
+    color: white;
+}
+.section-contact__container-input input,
+.section-contact__textarea textarea {
+    display: flex;
+    flex-direction: column;
+    border-radius: 7px;
+    width: 100%;
+    border: 0;
+    padding: 5px;
+}
+label {
+    font-size: 18px;
+}
+.section-contact__btn {
+    border-radius: 7px;
+    border: 2px solid white;
+    font-size: 14px;
+    background-color: #006241;
+    color: white;
+    width: 50%;
+    padding: 3px;
+    margin-top: 15px;
+    transition: all 0.9s;
+}
+.section-contact__container-input input::placeholder, 
+.section-contact__textarea textarea::placeholder {
+    color: #006241;
+    font-weight: bolder;
+    padding: 4px;
+}
+.section-contact__container-input input:focus,
+.section-contact__textarea textarea:focus{
+    background-color: #141414;
+    border-radius: 5px;
+}
+.section-contact__container-input {
+    margin-bottom: 10px;
+}
+.section-contact__btn:hover {
+    background-color: #f3f313;
+    color: white;
+    border: 2px solid #f3f313;
+}
+@media (min-width: 768px) {
+    .section-contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .section-contct__form {
+        width: 450px;
+        height: 250px;
+    }
+    .section-contact__title {
+        font-size: 45px;
+    }
+    .section-contact__container-input {
+        padding-bottom: 10px;
+    }
+    .section-contact__container-input input {
+        padding: 8px;
+    }
+}
+@media (min-width: 1024px) {
+    .section-contct__form {
+        width: 650px;
+        height: 350px;
+        padding: 30px 20px 0 20px;
+    }
+    .section-contact__container-input {
+        margin-bottom: 15px;
+    }
+    .section-contact__container-input input {
+        margin-top: 10px;
+    }
+    .section-contact__textarea textarea {
+        margin-top: 10px;
+        padding-bottom: 70px;
+    }
+    .section-contact__btn {
+        width: 35%;
+        font-size: 16px;
+        border-radius: 12px;
+    }
+}
