@@ -14,7 +14,11 @@ const Cards = () => {
         greenText={"Starbucks"}
         description={
           "Ahorre tiempo con click & collect y recolecte sus estrellas. Hacer pedido nunca ha sido tan facil"
-        } boton = {'Pruebelo'} estado = {true} porcentaje = {'5%'} secondBtn = {false}
+        }
+        boton={"Pruebelo"}
+        estado={true}
+        porcentaje={"5%"}
+        secondBtn={false}
       />
       <Card
         image={IMG_CARD2}
@@ -22,7 +26,11 @@ const Cards = () => {
         greenText={"Delivery"}
         description={
           "Starbuks entrega su comida y bebida favorita en la puerta de su casa."
-        } boton = {'Entrega por UberEat'} estado = {true} porcentaje = {'10%'} secondBtn = {true}
+        }
+        boton={"Entrega por UberEat"}
+        estado={true}
+        porcentaje={"10%"}
+        secondBtn={true}
       />
       <Card
         image={IMG_CARD3}
@@ -30,13 +38,19 @@ const Cards = () => {
         greenText={"Starbucks"}
         description={
           "Mantengase informado de nuestras ultimas novedades y actualizaciones."
-        } boton = {'Mas Información'} estado = {false} secondBtn = {false}
+        }
+        boton={"Mas Información"}
+        estado={false}
+        secondBtn={false}
       />
       <Card
         image={IMG_CARD4}
         text={"Historias de"}
         greenText={"Starbucks"}
-        description={"Descrubra nuestra empresa y nuestra historia."} boton = {'Mas Información'} estado = {false} secondBtn = {false}
+        description={"Descrubra nuestra empresa y nuestra historia."}
+        boton={"Mas Información"}
+        estado={false}
+        secondBtn={false}
       />
     </section>
   );
