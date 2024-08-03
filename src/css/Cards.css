@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.cards {
+  padding: 20px 30px;
+  display: flex;
+  flex-direction: column;
+}
+.cards__container-card {
+  margin-top: 35px;
+  background-color: #006241;
+  position: relative;
+  color: white;
+}
+.cards__img-1,
+.cards__img-2,
+.cards__img-3,
+.cards__img-4 {
+  width: 100%;
+}
+.cards__porcentaje-5 {
+  background-color: #d8f007;
+  border-radius: 100%;
+  width: 55px;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 20px;
+  position: absolute;
+  right: -20px;
+  top: -20px;
+  color: black;
+}
+.cards__title-1 span,
+.cards__title-2 span,
+.cards__title-3 span,
+.cards__title-4 span {
+  color: #d7d700;
+}
+.cards__title-1,
+.cards__title-2,
+.cards__title-3,
+.cards__title-4 {
+  font-size: 23px;
+}
+.cards__container-text {
+  padding: 5px 15px 20px 15px;
+}
+.cards__btn-pruebalo {
+  background-color: inherit;
+  border: 1px solid white;
+  border-radius: 8px;
+  width: 45%;
+  color: white;
+  padding: 6px;
+  margin-top: 20px;
+  transition: 1s;
+}
+.cards__btn-pruebalo:hover {
+  background-color: #d7d700;
+  color: white;
+  border: 2px solid #d7d700;
+}
+.cards__parrafo-1 {
+  padding: 10px 0;
+  font-size: 14px;
+}
+.cards__parrafo-2 {
+  font-size: 14px;
+  padding: 15px 0;
+}
+.cards__parrafo-3 {
+  font-size: 14px;
+  padding-top: 10px;
+}
+.cards__parrafo-4 {
+  font-size: 14px;
+  padding: 12px 0;
+}
+.cards__porcentaje-10 {
+  background-color: #d8f007;
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 20px;
+  position: absolute;
+  right: -20px;
+  top: -20px;
+  color: black;
+}
+.cards__btn-uber {
+  background-color: inherit;
+  border: 1px solid white;
+  border-radius: 8px;
+  width: 75%;
+  color: white;
+  padding: 6px;
+  margin-top: 15px;
+  transition: 1s;
+  font-size: 12px;
+}
+.cards__btn-pedidosya {
+  background-color: inherit;
+  border: 1px solid white;
+  border-radius: 8px;
+  width: 85%;
+  color: white;
+  padding: 6px;
+  margin-top: 8px;
+  transition: 1s;
+  font-size: 12px;
+}
+.cards__btn-3 {
+  background-color: inherit;
+  border: 1px solid white;
+  border-radius: 8px;
+  width: 65%;
+  color: white;
+  padding: 5px;
+  margin-top: 20px;
+  transition: 1s;
+  font-size: 12px;
+}
+.cards__btn-4 {
+  background-color: inherit;
+  border: 1px solid white;
+  border-radius: 8px;
+  width: 65%;
+  color: white;
+  padding: 5px;
+  margin-top: 20px;
+  transition: 1s;
+  font-size: 12px;
+}
+@media (min-width: 768px) {
+  .cards {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2.5em 2px;
+  }
+  .cards__container-card {
+    width: 40%;
+  }
+  .cards__btn-3 {
+    margin-top: 20px;
+  }
+}
